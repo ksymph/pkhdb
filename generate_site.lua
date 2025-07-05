@@ -94,6 +94,22 @@ local function render_hack_cards(hacks)
 	return out
 end
 
+local function copy_recursive(src_dir, dest_dir)
+	for file in U.lfs.dir(src_dir) do
+		if file ~= "." and file ~= ".." then
+			local src_path = src_dir .. "/" .. file
+			local dest_path = dest_dir .. "/" .. file
+			local attr = U.lfs.attributes(src_path)
+			if attr and attr.mode == "directory" then
+				U.mkdir_recursive(dest_path)
+				copy_recursive(src_path, dest_path)
+			elseif attr and attr.mode == "file" then
+				U.copy(src_path, dest_path)
+			end
+		end
+	end
+end
+
 -- main build function
 local function build()
 	local hacks = load_hacks()
@@ -127,6 +143,11 @@ local function build()
 		print("	images done!")
 	end
 	print("done making card pages!")
+
+	-- copy static assets
+	print("copying static assets...")
+	copy_recursive("static", "out")
+	print("done copying static assets!")
 
 	print("build complete!")
 end
