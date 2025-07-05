@@ -1,0 +1,24 @@
+{
+	"title": "Elysium",
+	"creator": "BlackKaiser",
+	"last_update": "2025-06-08",
+	"initial_release": "2023-10-17",
+	"languages": ["en"],
+	"base": "firered",
+	"status": "complete",
+	"pokedex": [
+		"expanded",
+		"backports",
+		"backport_types",
+		"new_abilities",
+		"new_moves"
+	],
+	"story": "new",
+	"length": "vanilla",
+	"difficulty": "hard",
+	"features": ["postgame", "quests", "phys_spec_split", "misc_qol"],
+	"description": "<p>This is a game about the adventure of a 16-year-old girl from the peaceful island of Crysta. She's on a journey to become a Pokémon Champion, aiming to secure one of the 8 spots in the finals set on the mysterious Elysium island. However, unbeknownst to her, an ancient dark presence, setting in motion a plan more than 100 years in the making, will endanger not only her and her friends but the entire world.</p><p>It is a story/lore-focused Fire Red hack for casual players, developed years ago (although content was added until very recently) that I decided to release it despite originally not planning to. It is a lengthy one, especially if you explore everything and follow the various side quests, and it is divided into two parts, A and B.</p><h3>Features:</h3><ul><li>A mix of Pokémon and types up until Pokémon X and Y. Gen I, II and III mostly but there's a decent number of Pokémon from the next generations like Hippopotas, Garchomp, Rhyperion or Galvantula</li><li>About 100 moves from Gen IV - Gen VI generation</li><li>Fairy Type-Pokémon & Moves (replacing old ones)</li><li>Physical-Special Split</li><li>Some standard QoL features like BW Repel System, Reusable TMs and HMs as out-of-battle items.</li><li>A simplistic Quest Log</li><li>A very few story-only related fakemon and fakemoves (permanent)</li><li>Mega Evolutions</li><li>Several Regions to explore.</li><li>Side quests that reward you with rare Pokémon, moves or special items.</li></ul>",
+	"links": {
+		"PokeCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-elysium-gba.502953/"
+	}
+}

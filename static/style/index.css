@@ -1,0 +1,57 @@
+@import url("colors.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Courier New", monospace;
+	background: white;
+	color: black;
+	line-height: 1.5;
+}
+
+main {
+	height: calc(100vh - 3rem);
+	position: absolute;
+	top: 3rem;
+}
+
+header {
+	position: fixed;
+	height: 3rem;
+	width: 100%;
+	display: flex;
+	flex-align: center;
+	justify-content: center;
+	border-bottom: 2px solid black;
+	color: white;
+	background-image: linear-gradient(to bottom, black, gray);
+	h1 {
+		padding: 0 0.5rem;
+		text-shadow: 0 0 10px black;
+	}
+}
+
+input[type="text"] {
+	padding: 0.5rem;
+	border: 2px solid black;
+	background: white;
+	font: inherit;
+
+	&:focus {
+		outline: none;
+		background: black;
+		color: white;
+	}
+}

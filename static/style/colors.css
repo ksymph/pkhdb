@@ -1,0 +1,41 @@
+:root {
+	--pk-red: #cc0000;
+	--pk-green: #009900;
+	--pk-yellow: #ccaa00;
+	--pk-blue: #0000cc;
+	--pk-gold: #cc9900;
+	--pk-silver: #888888;
+	--pk-crystal: #aa55ff;
+	--pk-ruby: #b00000;
+	--pk-sapphire: #0000b0;
+	--pk-emerald: #00a000;
+	--pk-firered: #ff0000;
+	--pk-leafgreen: #00cc00;
+	--pk-diamond: #404070;
+	--pk-pearl: #e0e0e0;
+	--pk-platinum: #a0a0a0;
+	--pk-heartgold: #cc9900;
+	--pk-soulsilver: #888888;
+	--pk-black: #333333;
+	--pk-white: #cccccc;
+}
+
+.red { background-color: var(--pk-red); }
+.green { background-color: var(--pk-green); }
+.yellow { background-color: var(--pk-yellow); }
+.blue { background-color: var(--pk-blue); }
+.gold { background-color: var(--pk-gold); }
+.silver { background-color: var(--pk-silver); }
+.crystal { background-color: var(--pk-crystal); }
+.ruby { background-color: var(--pk-ruby); }
+.sapphire { background-color: var(--pk-sapphire); }
+.emerald { background-color: var(--pk-emerald); }
+.firered { background-color: var(--pk-firered); }
+.leafgreen { background-color: var(--pk-leafgreen); }
+.diamond { background-color: var(--pk-diamond); }
+.pearl { background-color: var(--pk-pearl); }
+.platinum { background-color: var(--pk-platinum); }
+.heartgold { background-color: var(--pk-heartgold); }
+.soulsilver { background-color: var(--pk-soulsilver); }
+.black { background-color: var(--pk-black); }
+.white { background-color: var(--pk-white); }

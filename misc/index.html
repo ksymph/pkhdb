@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="A database of Pokemon ROM hacks.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PokéHack Database</title>
+	<link rel="author" href="https://kwikle.me/">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/browse.css">
+</head>
+<body>
+	<header>
+		<a href="https://pkhdb.moonlemon.nexus"><h1>PokéHack Database</h1></a>
+	</header>
+	<main>
+		<section id="sidebar-filters">
+			<form id="filters-form" method="GET">
+				<input type="text" id="search" name="search" placeholder="Search...">
+				<fieldset>
+					<legend>Base Game</legend>
+					<label><input type="checkbox" name="base[]" value="red">Red</label>
+					<label><input type="checkbox" name="base[]" value="green">Green</label>
+					<label><input type="checkbox" name="base[]" value="blue">Blue</label>
+					<label><input type="checkbox" name="base[]" value="yellow">Yellow</label>
+					<div class="spacer"></div>
+					<label><input type="checkbox" name="base[]" value="gold">Gold</label>
+					<label><input type="checkbox" name="base[]" value="silver">Silver</label>
+					<label><input type="checkbox" name="base[]" value="crystal">Crystal</label>
+					<div class="spacer"></div>
+					<label><input type="checkbox" name="base[]" value="ruby">Ruby</label>
+					<label><input type="checkbox" name="base[]" value="sapphire">Sapphire</label>
+					<label><input type="checkbox" name="base[]" value="emerald">Emerald</label>
+					<label><input type="checkbox" name="base[]" value="firered">FireRed</label>
+					<label><input type="checkbox" name="base[]" value="leafgreen">LeafGreen</label>
+					<div class="spacer"></div>
+					<label><input type="checkbox" name="base[]" value="diamond">Diamond</label>
+					<label><input type="checkbox" name="base[]" value="pearl">Pearl</label>
+					<label><input type="checkbox" name="base[]" value="platinum">Platinum</label>
+					<label><input type="checkbox" name="base[]" value="heartgold">HeartGold</label>
+					<label><input type="checkbox" name="base[]" value="soulsilver">SoulSilver</label>
+					<div class="spacer"></div>
+					<label><input type="checkbox" name="base[]" value="black">Black</label>
+					<label><input type="checkbox" name="base[]" value="white">White</label>
+					<label><input type="checkbox" name="base[]" value="black2">Black 2</label>
+					<label><input type="checkbox" name="base[]" value="white2">White 2</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Status</legend>
+					<label><input type="checkbox" name="status[]" value="in_progress">In Progress</label>
+					<label><input type="checkbox" name="status[]" value="stale">Stale</label>
+					<label><input type="checkbox" name="status[]" value="complete">Complete</label>
+					<label><input type="checkbox" name="status[]" value="ongoing">Ongoing</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Pokedex</legend>
+					<label><input type="checkbox" name="pokedex[]" value="vanilla">Vanilla</label>
+					<label><input type="checkbox" name="pokedex[]" value="expanded">Expanded</label>
+					<label><input type="checkbox" name="pokedex[]" value="backports">Backports</label>
+					<label><input type="checkbox" name="pokedex[]" value="fakemon">Fakemon</label>
+					<label><input type="checkbox" name="pokedex[]" value="all_fakemon">All Fakemon</label>
+					<label><input type="checkbox" name="pokedex[]" value="alt_forms">Alternate Forms</label>
+					<label><input type="checkbox" name="pokedex[]" value="completable">Completable</label>
+					<label><input type="checkbox" name="pokedex[]" value="new_types">New Types</label>
+					<label><input type="checkbox" name="pokedex[]" value="backport_types">Backported Types</label>
+					<label><input type="checkbox" name="pokedex[]" value="new_abilities">New Abilities</label>
+					<label><input type="checkbox" name="pokedex[]" value="new_moves">New Moves</label>
+					<label><input type="checkbox" name="pokedex[]" value="balance_tweaks">Balance Tweaks</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Story</legend>
+					<label><input type="checkbox" name="story[]" value="vanilla">Vanilla</label>
+					<label><input type="checkbox" name="story[]" value="vanilla_plus">Vanilla+</label>
+					<label><input type="checkbox" name="story[]" value="new">New</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Length</legend>
+					<label><input type="checkbox" name="length[]" value="short">Short</label>
+					<label><input type="checkbox" name="length[]" value="vanilla">Vanilla</label>
+					<label><input type="checkbox" name="length[]" value="long">Long</label>
+					<label><input type="checkbox" name="length[]" value="very_long">Very Long</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Difficulty</legend>
+					<label><input type="checkbox" name="difficulty[]" value="vanilla">Vanilla</label>
+					<label><input type="checkbox" name="difficulty[]" value="hard">Hard</label>
+					<label><input type="checkbox" name="difficulty[]" value="kaizo">Kaizo</label>
+					<label><input type="checkbox" name="difficulty[]" value="flexible">Flexible</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Features</legend>
+					<label><input type="checkbox" name="features[]" value="postgame">Postgame</label>
+					<label><input type="checkbox" name="features[]" value="nuzlocke">Nuzlocke</label>
+					<label><input type="checkbox" name="features[]" value="quests">Quests</label>
+					<label><input type="checkbox" name="features[]" value="phys_spec_split">Phys./Spec. Split</label>
+					<label><input type="checkbox" name="features[]" value="non_linear">Non-linear</label>
+					<label><input type="checkbox" name="features[]" value="misc_qol">General Qol</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Language</legend>
+					<label><input type="checkbox" name="language[]" value="en">English</label>
+					<label><input type="checkbox" name="language[]" value="es">Spanish</label>
+					<label><input type="checkbox" name="language[]" value="ja">Japanese</label>
+				</fieldset>
+			</form>
+		</section>
+		<section id="main-content">
+			<div id="results-container">
+				{{CARDS}}
+			</div>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>

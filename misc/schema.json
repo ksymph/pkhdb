@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pokemon Rom Hack Information",
+  "description": "A schema for defining metadata about a Pokemon rom hack, following the format of info.json.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the hack, omitting 'Pokemon' and platform info."
+    },
+    "creator": {
+      "type": "string",
+      "description": "The name of the hack's creator."
+    },
+    "last_update": {
+      "type": "string",
+      "description": "Date of the last update in YYYY-MM-DD format.",
+      "format": "date"
+    },
+    "initial_release": {
+      "type": "string",
+      "description": "Date of the initial release in YYYY-MM-DD format.",
+      "format": "date"
+    },
+    "languages": {
+      "type": "array",
+      "description": "A list of available language codes for the hack.",
+      "items": {
+        "type": "string",
+        "enum": ["en", "es", "ja"]
+      }
+    },
+    "base": {
+      "type": "string",
+      "description": "The base game the hack is built on.",
+      "enum": [
+        "red", "green", "blue", "yellow",
+        "gold", "silver", "crystal",
+        "ruby", "sapphire", "emerald",
+        "firered", "leafgreen",
+        "diamond", "pearl", "platinum",
+        "heartgold", "soulsilver",
+        "black", "white", "black2", "white2"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "description": "The development status of the hack.",
+      "enum": ["complete", "in-progress", "on-hiatus", "cancelled"]
+    },
+    "pokedex": {
+      "type": "array",
+      "description": "A list of features and changes related to the Pokedex.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "vanilla", "expanded", "backports", "fakemon",
+          "all_fakemon", "alt_forms", "completable", "new_types",
+          "backport_types", "new_abilities", "new_moves", "misc_balance"
+        ]
+      }
+    },
+    "story": {
+      "type": "string",
+      "description": "The type of story in the hack.",
+      "enum": ["vanilla", "enhanced", "new"]
+    },
+    "length": {
+      "type": "string",
+      "description": "The approximate length of the game.",
+      "enum": ["short", "vanilla", "long", "very_long"]
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "The difficulty level of the hack.",
+      "enum": ["vanilla", "hard", "kaizo", "flexible"]
+    },
+    "features": {
+      "type": "array",
+      "description": "A list of notable gameplay features in the hack.",
+      "items": {
+        "type": "string",
+        "enum": ["postgame", "nuzlocke", "quests", "phys_spec_split", "non_linear", "misc_qol"]
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the hack, which may contain basic HTML tags."
+    },
+    "links": {
+      "type": "object",
+      "description": "An object containing relevant web links (e.g., community pages, documentation).",
+      "additionalProperties": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  },
+  "required": [
+    "title",
+    "creator",
+    "last_update",
+    "initial_release",
+    "languages",
+    "base",
+    "status",
+    "pokedex",
+    "story",
+    "length",
+    "difficulty",
+    "features",
+    "description",
+    "links"
+  ]
+}

@@ -1,0 +1,79 @@
+.card {
+	border: 2px solid black;
+	width: 320px;
+
+	.card-link {
+		text-decoration: none;
+		&:hover .title {
+			text-decoration: underline;
+		}
+	}
+
+	.top {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-image: linear-gradient(to bottom, black, gray);
+		color: white;
+		.title {
+			font-size: 1.5rem;
+			font-weight: bold;
+			padding: 0 0.3em;
+			text-shadow: 0 0 10px #00000080;
+		}
+		div {
+			font-size: 0.75rem;
+			display: flex;
+			align-items: flex-end;
+			flex-direction: column;
+			.status.complete {
+				background-image: linear-gradient(to bottom, #226622, gray);
+			}
+			.status.in_progress {
+				background-image: linear-gradient(to bottom, #333388, gray);
+			}
+			span {
+				padding: 0 0.3em;
+			}
+		}
+	}
+
+	.cover {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+		div {
+			font-size: 0.8em;
+			display: flex;
+			height: 0;
+			justify-content: space-between;
+			position: relative;
+			bottom: 2em;
+			span {
+				background-color: white;
+				height: 1.55em;
+				padding: 0 0.5em;
+			}
+		}
+	}
+
+	.info {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: dotted 2.5px black;
+		position: relative;
+		bottom: 0.6em;
+		span {
+			position: relative;
+			background-color: white;
+			padding: 0 0.5em;
+			bottom: -0.6em;
+		}
+	}
+	.info-full {
+		line-height: 1.2;
+		text-indent: -1em;
+		padding: 0.2em 0.5em 0.2em 1.5em;
+	}
+}

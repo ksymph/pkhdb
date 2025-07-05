@@ -1,0 +1,75 @@
+{
+	"base": {
+		"red": "Red",
+		"green": "Green",
+		"blue": "Blue",
+		"yellow": "Yellow",
+		"gold": "Gold",
+		"silver": "Silver",
+		"crystal": "Crystal",
+		"ruby": "Ruby",
+		"sapphire": "Sapphire",
+		"emerald": "Emerald",
+		"firered": "FireRed",
+		"leafgreen": "LeafGreen",
+		"diamond": "Diamond",
+		"pearl": "Pearl",
+		"platinum": "Platinum",
+		"heartgold": "HeartGold",
+		"soulsilver": "SoulSilver",
+		"black": "Black",
+		"white": "White",
+		"black2": "Black 2",
+		"white2": "White 2"
+	},
+	"status": {
+		"in_progress": "In Progress",
+		"stale": "Stale",
+		"complete": "Complete",
+		"ongoing": "Ongoing"
+	},
+	"pokedex": {
+		"vanilla": "Vanilla",
+		"expanded": "Expanded",
+		"backports": "Backports",
+		"fakemon": "Fakemon",
+		"all_fakemon": "All Fakemon",
+		"alt_forms": "Alternate Forms",
+		"completable": "Completable",
+		"new_types": "New Types",
+		"backport_types": "Backported Types",
+		"new_abilities": "New Abilities",
+		"new_moves": "New Moves",
+		"misc_balance": "Balance Tweaks"
+	},
+	"story": {
+		"vanilla": "Vanilla",
+		"enhanced": "Enhanced",
+		"new": "New"
+	},
+	"length": {
+		"short": "Short",
+		"vanilla": "Vanilla",
+		"long": "Long",
+		"very_long": "Very Long"
+	},
+	"difficulty": {
+		"vanilla": "Vanilla",
+		"hard": "Hard",
+		"kaizo": "Kaizo",
+		"flexible": "Flexible"
+	},
+	"features": {
+		"postgame": "Postgame",
+		"nuzlocke": "Nuzlocke",
+		"quests": "Quests",
+		"phys_spec_split": "Physical/Special Split",
+		"non_linear": "Non-linear",
+		"misc_qol": "Misc Qol"
+	},
+	"language": {
+		"en": "English",
+		"es": "Spanish",
+		"ja": "Japanese"
+	}
+}

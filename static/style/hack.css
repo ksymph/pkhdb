@@ -1,0 +1,76 @@
+main {
+	overflow: scroll;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+
+	border: 2px solid black;
+	margin: 1rem;
+	max-width: calc(min(100% - 2rem, 960px));
+}
+
+#titlebar {
+	width: 100%;
+	flex-basis: 100%;
+
+	background-image: linear-gradient(to bottom, black, gray);
+	color: white;
+	text-align: center;
+
+	display: flex;
+	justify-content: space-between;
+
+	* {
+		flex-basis: 33%;
+	}
+
+	#back {
+		text-align: left;
+		display: flex;
+		align-items: center;
+
+		a {
+			padding: 1rem;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+#infobox {
+	width: 100px;
+	flex-grow: 1;
+	flex-basis: 320px;
+
+	border-right: 2px solid black;
+
+	.cover {
+		width: 100%;
+	}
+
+	.infoline {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 1rem;
+
+		p:nth-child(2) {
+			text-align: right;
+		}
+	}
+}
+
+#main-container {
+	width: 300px;
+	flex-grow: 9999;
+	flex-basis: 480px;
+	margin: 1rem 2rem;
+}
