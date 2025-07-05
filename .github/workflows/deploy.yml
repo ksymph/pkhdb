@@ -1,0 +1,45 @@
+name: Deploy to GitHub Pages
+
+on:
+   push:
+      branches: [master]
+   workflow_dispatch:
+
+jobs:
+   build-deploy:
+      runs-on: ubuntu-latest
+      permissions:
+         contents: write
+         pages: write
+         id-token: write
+
+      steps:
+         - name: Checkout
+           uses: actions/checkout@v4
+
+         - name: install lua
+           uses: leafo/gh-actions-lua@v11
+           with:
+              luaVersion: "5.1"
+
+         - name: install luarocks
+           uses: leafo/gh-actions-luarocks@v5
+
+         - name: install lunajson
+           run: luarocks install lunajson
+
+         - name: install LuaFileSystem
+           run: luarocks install luafilesystem
+
+         - name: Build Site
+           run: |
+              mkdir -p ./out
+              lua ./generate_site.lua
+
+         - name: Upload artifact
+           uses: actions/upload-pages-artifact@v3
+           with:
+              path: "./out"
+
+         - name: Deploy to GitHub Pages
+           uses: actions/deploy-pages@v4
