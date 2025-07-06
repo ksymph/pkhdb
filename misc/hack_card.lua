@@ -21,7 +21,7 @@ return function(hack)
 	features = features:sub(1, -3) -- remove trailing comma and space
 
 	return [[ <div class="card">
-  <a class="card-link" href="/h/]] .. hack.id .. [[">
+  <a class="card-link" href="h/]] .. hack.id .. [[">
     <div class="top">
       <span class="title">]] .. hack.title .. [[</span>
       <div>
