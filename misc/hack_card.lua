@@ -6,7 +6,7 @@ return function(hack)
 	-- concat and prettify arrays
 	local languages = ""
 	for _, language in ipairs(hack.languages) do
-		languages = languages .. pretty.language[language] .. ", "
+		languages = languages .. language .. ", "
 	end
 	languages = languages:sub(1, -3) -- remove trailing comma and space
 	local pokedex = ""

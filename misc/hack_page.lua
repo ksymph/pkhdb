@@ -30,13 +30,13 @@ return function(hack)
 		for name, url in pairs(hack.links) do
 			links_html = links_html .. [[
 				<div class="infoline">
-					<a href="]] .. url .. [[">]] .. name .. [[</a>
+					<a href="]] .. url .. [[">🔗]] .. name .. [[</a>
 				</div>]]
 		end
 	end
 
 	-- Construct the cover image URL, assuming hack.id is available, like in hack_card.lua.
-	local cover_url = "/hacks/" .. hack.id .. "/cover.png"
+	local cover_url = "/h/" .. hack.id .. "/cover.png"
 
 	-- Construct the final HTML page by embedding the processed data.
 	return [[<!DOCTYPE html>
