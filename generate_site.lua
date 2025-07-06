@@ -123,6 +123,10 @@ local function build()
 	U.write("out/index.html", index_html)
 	print("done assembling index")
 
+	print("creating merged hacks json...")
+	U.write("out/db.json", U.lunajson.encode(hacks))
+	print("done creating merged hacks json")
+
 	-- make individual hack pages
 	print("making hack pages...")
 	for _, hack in ipairs(hacks) do
