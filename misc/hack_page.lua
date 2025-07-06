@@ -48,8 +48,8 @@ return function(hack)
 	<title>PokéHack Database - ]] .. hack.title .. [[</title>
 	<link rel="author" href="https://kwikle.me/">
 	<meta name="robots" content="index,follow">
-	<link rel="stylesheet" type="text/css" href="style/index.css">
-	<link rel="stylesheet" type="text/css" href="style/hack.css">
+	<link rel="stylesheet" type="text/css" href="/style/index.css">
+	<link rel="stylesheet" type="text/css" href="/style/hack.css">
 
 </head>
 <body>
