@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			// Fetch both database and formatting names concurrently
 			const [hacksResponse, prettyResponse] = await Promise.all([
 				fetch("db.json"),
-				fetch("misc/pretty.json"),
+				fetch("pretty.json"),
 			]);
 
 			if (!hacksResponse.ok)
