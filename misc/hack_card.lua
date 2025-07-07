@@ -1,4 +1,4 @@
-local pretty = U.lunajson.decode(U.read("misc/pretty.json"))
+local pretty = U.lunajson.decode(U.read("static/pretty.json"))
 
 
 
