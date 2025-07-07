@@ -5,80 +5,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// --- State ---
 	let allHacks = [];
+	let prettyNames = {}; // Will be populated from misc/pretty.json
 
 	// --- Helper Functions for Formatting ---
 
-	// Map for pretty-printing base game names
-	const GAME_NAMES = {
-		red: "Red",
-		green: "Green",
-		blue: "Blue",
-		yellow: "Yellow",
-		gold: "Gold",
-		silver: "Silver",
-		crystal: "Crystal",
-		ruby: "Ruby",
-		sapphire: "Sapphire",
-		emerald: "Emerald",
-		firered: "FireRed",
-		leafgreen: "LeafGreen",
-		diamond: "Diamond",
-		pearl: "Pearl",
-		platinum: "Platinum",
-		heartgold: "HeartGold",
-		soulsilver: "SoulSilver",
-		black: "Black",
-		white: "White",
-		black2: "Black 2",
-		white2: "White 2",
-	};
-
-	// Map for pretty-printing filter tags and other values
-	const TAG_NAMES = {
-		// Status
-		in_progress: "In Progress",
-		stale: "Stale",
-		complete: "Complete",
-		ongoing: "Ongoing",
-		// Pokedex
-		vanilla: "Vanilla",
-		expanded: "Expanded",
-		backports: "Backports",
-		fakemon: "Fakemon",
-		all_fakemon: "All Fakemon",
-		alt_forms: "Alternate Forms",
-		completable: "Completable",
-		new_types: "New Types",
-		backport_types: "Backported Types",
-		new_abilities: "New Abilities",
-		new_moves: "New Moves",
-		balance_tweaks: "Balance Tweaks",
-		// Story
-		vanilla_plus: "Vanilla+",
-		new: "New",
-		// Length
-		short: "Short",
-		long: "Long",
-		very_long: "Very Long",
-		// Difficulty
-		hard: "Hard",
-		kaizo: "Kaizo",
-		flexible: "Flexible",
-		// Features
-		postgame: "Postgame",
-		nuzlocke: "Nuzlocke",
-		quests: "Quests",
-		phys_spec_split: "Physical/Special Split",
-		non_linear: "Non-linear",
-		misc_qol: "General Qol",
-	};
-
-	function formatTag(tag) {
-		return TAG_NAMES[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
-	}
-
-	function formatGameName(base) {
-		return GAME_NAMES[base] || base.charAt(0).toUpperCase() + base.slice(1);
+	/**
+	 * Looks up the "pretty" display name for a given category and key.
+	 * @param {string} category - The category of the value (e.g., 'base', 'status').
+	 * @param {string} key - The raw value from the database (e.g., 'firered', 'in_progress').
+	 * @returns {string} The formatted display name.
+	 */
+	function formatValue(category, key) {
+		// Check if category and key exist in the loaded prettyNames object
+		if (prettyNames[category] && prettyNames[category][key]) {
+			return prettyNames[category][key];
+		}
+		// Fallback for keys not found in pretty.json
+		console.warn(
+			`No pretty name found for category '${category}' with key '${key}'.`,
+		);
+		return key.charAt(0).toUpperCase() + key.slice(1).replace(/_/g, " ");
 	}
 
 	// --- Core Functions ---
@@ -99,12 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		hacksToRender.forEach((hack) => {
 			const pokedexInfo =
 				hack.pokedex.length > 0
-					? `<span>Pokédex: ${hack.pokedex.map(formatTag).join(", ")}</span>`
+					? `<span>Pokédex: ${hack.pokedex.map((p) => formatValue("pokedex", p)).join(", ")}</span>`
 					: "";
 
 			const featuresInfo =
 				hack.features.length > 0
-					? `<span>Features: ${hack.features.map(formatTag).join(", ")}</span>`
+					? `<span>Features: ${hack.features.map((f) => formatValue("features", f)).join(", ")}</span>`
 					: "";
 
 			const lastUpdateDate = new Date(hack.last_update);
@@ -118,8 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="top">
                             <span class="title">${hack.title}</span>
                             <div>
-                                <span class="status ${hack.status}">${formatTag(hack.status)}</span>
-                                <span class="${hack.base}">${formatGameName(hack.base)}</span>
+                                <span class="status ${hack.status}">${formatValue("status", hack.status)}</span>
+                                <span class="${hack.base}">${formatValue("base", hack.base)}</span>
                             </div>
                         </div>
                         <div class="cover">
@@ -132,11 +78,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     </a>
                     <div class="info">
                         <span>Difficulty</span>
-                        <span>${formatTag(hack.difficulty)}</span>
+                        <span>${formatValue("difficulty", hack.difficulty)}</span>
                     </div>
                     <div class="info">
                         <span>Story</span>
-                        <span>${formatTag(hack.story)}</span>
+                        <span>${formatValue("story", hack.story)}</span>
                     </div>
                     <div class="info">
                         <span>Last updated</span>
@@ -144,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                     <div class="info">
                         <span>Length</span>
-                        <span>${formatTag(hack.length)}</span>
+                        <span>${formatValue("length", hack.length)}</span>
                     </div>
                     ${pokedexInfo ? `<div class="info-full">${pokedexInfo}</div>` : ""}
                     ${featuresInfo ? `<div class="info-full">${featuresInfo}</div>` : ""}
@@ -174,16 +120,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		const filteredHacks = allHacks.filter((hack) => {
 			// 1. Text Search Filter (checks title, creator, and description)
-			const searchMatch =
-				hack.title.toLowerCase().includes(search) ||
-				hack.creator.toLowerCase().includes(search) ||
-				hack.description.toLowerCase().includes(search);
+			const searchMatch = hack.title.toLowerCase().includes(search);
 			if (!searchMatch) return false;
 
 			// 2. Checkbox Filters
 			for (const key in filters) {
 				const selectedValues = filters[key];
-				if (selectedValues.length === 0) continue; // Skip if no filter is selected for this category
+				if (selectedValues.length === 0) continue;
 
 				// Handle the key name mismatch: form name is 'language', db property is 'languages'
 				const hackKey = key === "language" ? "languages" : key;
@@ -191,7 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 				if (Array.isArray(hackValue)) {
 					// For properties that are arrays (e.g., features, pokedex, languages)
-					// The hack must have at least one of the selected values.
 					if (!hackValue.some((val) => selectedValues.includes(val))) {
 						return false;
 					}
@@ -203,7 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
 				}
 			}
 
-			// If the hack survived all filters, include it
 			return true;
 		});
 
@@ -215,11 +156,23 @@ document.addEventListener("DOMContentLoaded", () => {
 	 */
 	async function init() {
 		try {
-			const response = await fetch("db.json");
-			if (!response.ok) {
-				throw new Error(`HTTP error! status: ${response.status}`);
-			}
-			allHacks = await response.json();
+			// Fetch both database and formatting names concurrently
+			const [hacksResponse, prettyResponse] = await Promise.all([
+				fetch("db.json"),
+				fetch("misc/pretty.json"),
+			]);
+
+			if (!hacksResponse.ok)
+				throw new Error(
+					`Failed to load db.json: ${hacksResponse.statusText}`,
+				);
+			if (!prettyResponse.ok)
+				throw new Error(
+					`Failed to load pretty.json: ${prettyResponse.statusText}`,
+				);
+
+			allHacks = await hacksResponse.json();
+			prettyNames = await prettyResponse.json();
 
 			// Perform initial render with all hacks
 			renderCards(allHacks);
@@ -228,9 +181,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			filtersForm.addEventListener("input", applyFilters);
 			filtersForm.addEventListener("submit", (e) => e.preventDefault());
 		} catch (error) {
-			console.error("Could not load hack database:", error);
-			resultsContainer.innerHTML =
-				'<p class="error">Failed to load hack database. Please try again later.</p>';
+			console.error("Could not initialize the application:", error);
+			resultsContainer.innerHTML = `<p class="error">Failed to load required data: ${error.message}. Please try again later.</p>`;
 		}
 	}
 

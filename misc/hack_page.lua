@@ -1,4 +1,4 @@
-local pretty = U.lunajson.decode(U.read("misc/pretty.json"))
+local pretty = U.lunajson.decode(U.read("static/pretty.json"))
 
 local function prettify_and_join(tags, pretty_map)
 	if not tags or #tags == 0 then
