@@ -1,41 +1,48 @@
 :root {
-	--pk-red: #cc0000;
-	--pk-green: #009900;
-	--pk-yellow: #ccaa00;
-	--pk-blue: #0000cc;
-	--pk-gold: #cc9900;
-	--pk-silver: #888888;
-	--pk-crystal: #aa55ff;
-	--pk-ruby: #b00000;
-	--pk-sapphire: #0000b0;
-	--pk-emerald: #00a000;
-	--pk-firered: #ff0000;
-	--pk-leafgreen: #00cc00;
-	--pk-diamond: #404070;
-	--pk-pearl: #e0e0e0;
-	--pk-platinum: #a0a0a0;
-	--pk-heartgold: #cc9900;
-	--pk-soulsilver: #888888;
-	--pk-black: #333333;
-	--pk-white: #cccccc;
+	--pk-red: #DA3914;
+	--pk-green: #24A724;
+	--pk-yellow: #FFD733;
+	--pk-blue: #2E50D8;
+	--pk-gold: #DAA520;
+	--pk-silver: #C0C0C0;
+	--pk-crystal: #4FD9FF;
+	--pk-ruby: #CD2236;
+	--pk-sapphire: #3D51A7;
+	--pk-emerald: #009652;
+	--pk-firered: #F15C01;
+	--pk-leafgreen: #9FDC00;
+	--pk-diamond: #90BEED;
+	--pk-pearl: #DD7CB1;
+	--pk-platinum: #A0A08D;
+	--pk-heartgold: #E8B502;
+	--pk-soulsilver: #AAB9CF;
+	--pk-black: #444444;
+	--pk-white: #E1E1E1;
+	--pk-black2: #303E51;
+	--pk-white2: #EBC5C3;
+	
+	--text-light: white;
+	--text-dark: black;
 }
 
-.red { background-color: var(--pk-red); }
-.green { background-color: var(--pk-green); }
-.yellow { background-color: var(--pk-yellow); }
-.blue { background-color: var(--pk-blue); }
-.gold { background-color: var(--pk-gold); }
-.silver { background-color: var(--pk-silver); }
-.crystal { background-color: var(--pk-crystal); }
-.ruby { background-color: var(--pk-ruby); }
-.sapphire { background-color: var(--pk-sapphire); }
-.emerald { background-color: var(--pk-emerald); }
-.firered { background-color: var(--pk-firered); }
-.leafgreen { background-color: var(--pk-leafgreen); }
-.diamond { background-color: var(--pk-diamond); }
-.pearl { background-color: var(--pk-pearl); }
-.platinum { background-color: var(--pk-platinum); }
-.heartgold { background-color: var(--pk-heartgold); }
-.soulsilver { background-color: var(--pk-soulsilver); }
-.black { background-color: var(--pk-black); }
-.white { background-color: var(--pk-white); }
+.red { background-color: var(--pk-red); color: var(--text-dark); }
+.green { background-color: var(--pk-green); color: var(--text-light); }
+.yellow { background-color: var(--pk-yellow); color: var(--text-dark); }
+.blue { background-color: var(--pk-blue); color: var(--text-light); }
+.gold { background-color: var(--pk-gold); color: var(--text-dark); }
+.silver { background-color: var(--pk-silver); color: var(--text-dark); }
+.crystal { background-color: var(--pk-crystal); color: var(--text-dark); }
+.ruby { background-color: var(--pk-ruby); color: var(--text-light); }
+.sapphire { background-color: var(--pk-sapphire); color: var(--text-light); }
+.emerald { background-color: var(--pk-emerald); color: var(--text-light); }
+.firered { background-color: var(--pk-firered); color: var(--text-dark); }
+.leafgreen { background-color: var(--pk-leafgreen); color: var(--text-dark); }
+.diamond { background-color: var(--pk-diamond); color: var(--text-dark); }
+.pearl { background-color: var(--pk-pearl); color: var(--text-dark); }
+.platinum { background-color: var(--pk-platinum); color: var(--text-dark); }
+.heartgold { background-color: var(--pk-heartgold); color: var(--text-dark); }
+.soulsilver { background-color: var(--pk-soulsilver); color: var(--text-dark); }
+.black { background-color: var(--pk-black); color: var(--text-light); }
+.white { background-color: var(--pk-white); color: var(--text-dark); }
+.black2 { background-color: var(--pk-black2); color: var(--text-light); }
+.white2 { background-color: var(--pk-white2); color: var(--text-dark); }
