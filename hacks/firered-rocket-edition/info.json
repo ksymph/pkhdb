@@ -3,13 +3,16 @@
   "id": "firered-rocket-edition",
   "creator": "colonelsalt",
   "last_update": "2021-07-11",
-  "initial_release": "2020-04-09",
+  "initial_release": "2016-01-02",
   "base": "firered",
   "status": "complete",
   "pokedex": [
     "backport_types"
   ],
   "story": "new",
+  "languages": [
+    "en"
+	],
   "features": [
     "phys_spec_split",
     "misc_qol"

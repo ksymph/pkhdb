@@ -2,10 +2,12 @@
   "title": "Elysium",
   "id": "elysium",
   "creator": "BlackKaiser",
+  "initial_release": "2023-08-17",
   "last_update": "2025-06-08",
   "base": "firered",
   "status": "complete",
   "pokedex": [
+    "expanded",
     "backports",
     "fakemon",
     "backport_types"

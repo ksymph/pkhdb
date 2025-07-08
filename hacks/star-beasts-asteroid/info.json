@@ -1,8 +1,9 @@
 {
-  "title": "Star Beasts - Asteroid",
+  "title": "Star Beasts: Asteroid",
   "id": "star-beasts-asteroid",
   "creator": "Soul Valor",
-  "last_update": "2024-07-31",
+  "initial_release": "2024-07-31",
+  "last_update": "2024-09-03",
   "base": "red",
   "pokedex": [
     "fakemon",

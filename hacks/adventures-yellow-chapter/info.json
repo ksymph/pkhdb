@@ -2,14 +2,18 @@
   "title": "Adventures Yellow Chapter",
   "id": "adventures-yellow-chapter",
   "creator": "karghosty21",
-  "last_update": "2014-07-11",
+  "last_update": "2014-08-23",
   "initial_release": "2014-07-11",
   "languages": [
     "en"
   ],
   "base": "firered",
-  "status": "in-progress",
+  "status": "stale",
   "story": "new",
+  "pokedex": [
+    "backports",
+    "backport_types"
+  ],
   "features": [
     "postgame",
     "misc_qol"

@@ -1,8 +1,9 @@
 {
-  "title": "Black and White 3: Genesis",
-  "id": "black-and-white-3-genesis",
+  "title": "Black/White 3: Genesis",
+  "id": "bw3-genesis",
   "creator": "Azure_Keys",
-  "last_update": "2021-01-09",
+  "initial_release": "2021-01-09",
+  "last_update": "2024-02-14",
   "base": "crystal",
   "status": "complete",
   "pokedex": [

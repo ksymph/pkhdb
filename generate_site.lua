@@ -66,6 +66,7 @@ local function load_hacks()
 			end
 
 			if hack.raw then
+				print("	found:", hack.id)
 				local details = U.lunajson.decode(hack.raw)
 				for key, value in pairs(details) do
 					hack[key] = value
