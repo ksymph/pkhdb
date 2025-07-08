@@ -1,0 +1,25 @@
+{
+  "title": "Odyssey",
+  "id": "odyssey",
+  "creator": "PacoScarso_",
+  "last_update": "2022-12-21",
+  "languages": [
+    "en"
+  ],
+  "base": "firered",
+  "status": "complete",
+  "pokedex": [
+    "alt_forms",
+    "misc_balance"
+  ],
+  "story": "new",
+  "difficulty": "flexible",
+  "features": [
+    "quests",
+    "misc_qol"
+  ],
+  "description": "<h2>INTRODUCTION</h2><p>Hey everyone! Long story short: this is a crossover project featuring Pokémon, Etrian Odyssey and Made in Abyss. It's a dungeon-crawler with a story-driven focus, but don't worry, you don't need to be familiar with Etrian Odyssey or Made in Abyss to enjoy the game to the fullest!</p><h2>STORY</h2><p>On an island in the middle of the sea stands a massive maze knows as the \"Yggdrasil Labyrinth\", which has been attracting adventurers from all over the world for years. No one knows how deep it goes, or if there's anything at its end. Some say there's a treasure of immeasurable value hidden within, while others claim the remnants of a lost civilization lie there. In the game you'll play as Nyx, a young adventurer who joins the guild of Talrega with the goal of unraveling the Labyrinth's mysteries. But something goes terribly wrong…</p><h2>FEATURES</h2><ul><li>A brand-new story and region to explore;</li><li>Double battles only, unless you only have one Pokémon;</li><li>No Gym Leaders, evil teams, or Elite Four—it's all about exploration!</li><li>All Pokémon have been rebalanced;</li><li>Introducing new regional forms: the Etrian Variants!</li><li>Available Pokémon: Generations 1–3 and cross-gen evolutions;</li><li>Multiple difficulty levels and soft level caps;</li><li>EV/IV screen, nature colors, and more;</li><li>No healing items during battle;</li><li>Etrian Odyssey-inspired features: Mining and Gathering points, Naval Exploration, Shop Upgrades, and FOEs;</li><li>A variety of sidequests with a dedicated sidequest menu;</li><li>Wonder Trade functionality;</li><li>Every Pokémon in the game has perfect 31 IVs, so no need to farm or breed for a decent one;</li><li>No EVs gained from defeating Pokémon, you'll need Power Items or Vitamins (at a reduced price) to boost them;</li><li>Change your Pokémon's Nature and Ability through in-game functions;</li><li>Exp. Share mechanic similar to Gen VI;</li><li>A brand-new soundtrack!</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-odyssey-complete-v4-0-1.488536/"
+  }
+}

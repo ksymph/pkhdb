@@ -1,0 +1,23 @@
+{
+  "title": "Genesis",
+  "id": "genesis",
+  "creator": "Thrace",
+  "last_update": "2010-09-08",
+  "initial_release": "2008-05-11",
+  "languages": [
+    "en"
+  ],
+  "base": "firered",
+  "status": "in-progress",
+  "pokedex": [
+    "backports"
+  ],
+  "story": "new",
+  "features": [
+    "non_linear"
+  ],
+  "description": "<p>\"In the End everything returns to the Beginning...\"</p><h2>Features</h2><ul><li>New Region - The beautiful and rugged region of Serao will be home to many different kinds of Pokémon</li><li>Decision Based Storyline - Your decisions in-game will affect the direction of the story</li><li>New Tiles - Realistic and beautiful new buildings in each city</li><li>Berry Trees - The old berry trees from GSC will be present but what is their significance?</li><li>D/P/Pt Pokémon - 31 newly inserted Pokémon from the 4th Generation</li><li>Judeo-Christian References - Religious references in names and events will foreshadow future events</li><li>Travel Between Different Regions - Visit old and foreign lands, meet new and familiar people</li></ul><h2>Storyline</h2><p>\"In the beginning, there was only a churning turmoil of chaos. At the heart of chaos, where all things became one, appeared an Egg. Having tumbled from the vortex, the Egg gave rise to the Original One. From itself, two beings the Original One did make. Time started to spin. Space began to expand. From itself again, three living things the Original One did make. The two beings wished, and from them, matter came to be. The three living things wished, and from them, spirit came to be. The world created, the Original One took to an unyielding sleep...\"</p><p>You are the child of the newly promoted lead scientist of Serao's largest corporation, Uriel Enterprises. A company previously praised for its many contributions to charity and emphasis on fair trade has now become shrouded in controversy due to unexplained spending of investors' assets. One day your father asks you to get a parcel waiting for him in the neighboring city. You visit your lifelong best friend to borrow a Pokémon for protection on your trip. When you arrive you meet a strangely familiar woman who suspiciously leaves abruptly. Who is this mysterious woman? Why is your father associated with a seemingly corrupt company? What does the future hold for the young protagonist? When the border between good and evil becomes blurred, which side will you choose?</p>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-genesis.163754/"
+  }
+}

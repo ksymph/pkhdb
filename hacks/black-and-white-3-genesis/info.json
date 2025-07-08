@@ -1,0 +1,24 @@
+{
+  "title": "Black and White 3: Genesis",
+  "id": "black-and-white-3-genesis",
+  "creator": "Azure_Keys",
+  "last_update": "2021-01-09",
+  "base": "crystal",
+  "status": "complete",
+  "pokedex": [
+    "backports",
+    "backport_types",
+    "completable",
+    "misc_balance"
+  ],
+  "story": "new",
+  "features": [
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<p>Black and White 3: Genesis is a hack of Pokemon Crystal Version. It is a sequel to Black 2/White 2 Versions, and takes place in Unova, a number of years following the events of B2/W2. In this game, you play as a young trainer from Humilau City, and will embark on a journey around the region to catch Pokemon, collect Gym badges, and thwart the plans of a mysterious group claiming to be Team Plasma, a terror group that was supposedly disbanded years ago.</p><p>FEATURES:</p><ul><li>Fully demade Unova region on GBC hardware</li><li>New original story featuring many characters from B/W/B2/W2</li><li>Demade music tracks for Unova locations</li><li>New Cries for all Gen3+ Pokemon</li><li>252 Pokemon available, selected from throughout the first 5 generations of Pokemon</li><li>255 moves from throughout the first 5 generations</li><li>Physical/Special split on moves</li><li>Fairy type added, and type chart adjusted to account for it</li><li>Many various items from newer games</li><li>Running Shoes available from the start</li><li>Reusable TMs</li><li>Move Reminder</li><li>Much more Bag space</li><li>All evolutions available in a single player game</li><li>Reusable Repels</li><li>Various other minor quality of life improvements</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pokemon-black-and-white-3-genesis-complete.444114/",
+    "GitHub": "https://github.com/AzureKeys/BW3G"
+  }
+}

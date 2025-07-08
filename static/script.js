@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <img src="h/${hack.id}/cover.png" alt="Cover for ${hack.title}" onerror="this.parentElement.style.display='none'">
                             <div>
                                 <span>by ${hack.creator}</span>
-                                <span>${hack.languages.map((lang) => lang.toUpperCase()).join(", ")}</span>
+                                <span>${hack.languages.join(", ")}</span>
                             </div>
                         </div>
                     </a>

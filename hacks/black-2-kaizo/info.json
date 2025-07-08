@@ -1,0 +1,13 @@
+{
+  "title": "Black 2 Kaizo",
+  "id": "black-2-kaizo",
+  "creator": "sauceyaTTa",
+  "initial_release": "2022-10-31",
+  "base": "black2",
+  "status": "complete",
+  "difficulty": "kaizo",
+  "description": "<p>Black 2 Kaizo is an all-double battle difficulty hack of Nintendo's Black 2 version. It has many features, both for difficulty and quality of life.</p><p>It includes an abundance of different encounters. There are approximately 450 available Pokemon, so every play-through will feel unique. Many Pokemon have easy access to their hidden ability or new abilities for both variety and balance. Many moves have been adjusted for balance and usefulness. Level-up learnsets for stone evolutions have been adjusted to match their pre-evolutions (due to a lack of moves). Trade-based evolutions and such have been adjusted for a single-player game.</p><p>Trainers each have competitive teams, with maximum IVs (31) in each stat, as well as balanced and / or themed teams. In contrast, the player cannot earn EVs through battling. Trainers on routes are comparatively easier, while gym trainers tend to be stronger. Optional trainers tend to be far more difficult, since they are guarding better items, or access to extra encounters. You will also find every gym leader from previous regions throughout the game. Victory road contains world championship teams, featuring the real-life person who created the team. All 250+ trainers' full parties are documented, should you want to plan for the battle.</p><p>As per the all-doubles format, you will receive two starters. For those who prefer hardcore rulesets and need extra encounters in each town, they can be found on the second floor of every Pokemon Center. Each Center has a type theme, ensuring the player will have access to a Pokemon of that type.</p><p>Gems have been removed from dust clouds in caves. Type gems are the single most powerful tool in generation 5, so their availability has been severely reduced. You can earn gems and other useful held items as rewards for defeating trainers. Stronger, optional trainers yield you better items. A number of items can also be found in shops, including Rare Candies, Berries, Shards, and Heart Scales.</p>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/official-black-2-kaizo-public-release.485328/"
+  }
+}

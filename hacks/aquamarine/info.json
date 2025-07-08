@@ -1,0 +1,32 @@
+{
+  "title": "Aquamarine",
+  "id": "aquamarine",
+  "creator": "ProfessorAquamarine",
+  "last_update": "2023-11-21",
+  "initial_release": "2019-10-30",
+  "languages": [
+    "en"
+  ],
+  "base": "firered",
+  "status": "complete",
+  "pokedex": [
+    "backports",
+    "fakemon",
+    "alt_forms",
+    "completable",
+    "backport_types",
+    "new_abilities",
+    "new_moves",
+    "misc_balance"
+  ],
+  "story": "new",
+  "features": [
+    "postgame",
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<p>Pokémon Aquamarine and its eight variants are ROM hacks of FireRed that takes place in Manta, an entirely new region based off South America. The player character mysteriously turns into a Mew, and takes on a journey as a Pokémon trainer to figure out how to turn back to human. Each variant corresponds with a different Eevee evolution. The differences between versions are minor and mostly aesthetic, so it is recommended you go with your favorite!</p><h3>Features:</h3><ul><li>New Region based off South America</li><li>New Subregions based off Hawaii, Galapagos, and Antarctica</li><li>Sci-Fi story with a diverging plot depending on gender</li><li>All 411 species of Pokémon are obtainable without the need to trade</li><li>Certain Pokémon from newer regions up until Paldea will appear</li><li>Custom Fakemon include a hummingbird line, a dolphin line, and a tortoise line</li><li>Updated mechanics, including the Fairy Type and the Physical/Special Split</li><li>Updated Pokémon learnsets to include a more diverse set of moves</li><li>Newer gen moves with custom animations</li><li>Expanded bag storage</li><li>Dynamically changing Pokémarts based off number of badges</li><li>Items from newer games include Bottle Caps, Nature Mints, Ability Capsules, and Choice Items</li><li>TMs have infinite uses</li><li>HMs can be forgotten</li><li>HMs and certain TMs can be used by the player character Mew as field effects</li><li>AMs (Ability Machines) can be used by the player character Mew as field effects</li><li>Key Item that provides hints for next objective, suggests level caps, and spawns unlimited rare candies</li><li>Key Items that provide services such as EV/IV checking and Move Tutoring</li><li>Color-Coded Natures</li><li>Pokédex accurately shows Pokémon locations and stats</li><li>Quality of life changes from newer games</li><li>Decapitalized most in-game text</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-aquamarine-version-3-0-0-updated-as-of-november-21-2023.425937/"
+  }
+}

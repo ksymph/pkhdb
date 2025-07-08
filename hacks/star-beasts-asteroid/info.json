@@ -1,0 +1,22 @@
+{
+  "title": "Star Beasts - Asteroid",
+  "id": "star-beasts-asteroid",
+  "creator": "Soul Valor",
+  "last_update": "2024-07-31",
+  "base": "red",
+  "pokedex": [
+    "fakemon",
+    "new_types",
+    "backport_types",
+    "new_moves",
+    "misc_balance"
+  ],
+  "story": "new",
+  "features": [
+    "misc_qol"
+  ],
+  "description": "<p>Worked on over the course of half a decade, Star Beasts is a Gen 1 dex overhaul and homage to the first generation of Pokémon games. Started as a passion project to make a playable version of Vast Fame's Shi Kong Xing Shou for English speaking audiences, Star Beasts became its own project with entirely new fakemon designs.</p><p>Some of the new features are as follows:</p><ul><li>A completely overhauled soundtrack! Almost none of the music from the original games remains!</li><li>An overhauled Pokedex, complete with backsprites, that fixes balance issues and replaces uglier designs and makes older evolutionary families more consistent.</li><li>Even more overhauled movesets, with even more new moves!</li><li>The Steel and Dark type!</li><li>New areas and new in-game events!</li><li>New types of trainers with different rosters and improved AI!</li><li>New dialogue, including getting rid of references to \"Pokemon.\" (Unless the team forgot, oops!)</li><li>Rebalancing of the game to make it more accessible to newcomers, including plenty of NPCs that give you hints on where to find rare Star Beasts!</li><li>And, as if that weren't enough, there's documentation on every Beast! (Although the game is best experienced blind, use your discretion!)</li><li>Various quality of life improvements, such as an experience bar!</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/star-beasts-asteroid-version.530552/"
+  }
+}

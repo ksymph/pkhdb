@@ -1,0 +1,20 @@
+{
+  "title": "Snakewood Version",
+  "id": "snakewood-version",
+  "creator": "Cutlerine",
+  "initial_release": "2010-10-27",
+  "base": "ruby",
+  "status": "complete",
+  "pokedex": [
+    "backports",
+    "fakemon",
+    "alt_forms",
+    "misc_balance"
+  ],
+  "story": "new",
+  "difficulty": "hard",
+  "description": "<h2>Introduction</h2><p>POKéMON SNAKEWOOD VERSION Introduction OK, so firstly, Snakewood is my first hack. It's based, predictably enough given the setting, on Ruby, and catalogues the adventures of the main character (Wraith/Jericho) as they fight their way through a bizarre, slightly insane version of Hoenn that has been invaded by the living dead.</p><h2>Story</h2><p>You awake in what used to be Littleroot town, having no memory of how you got there or even who you really are. It soon becomes apparent however that something very big has happened while you were out: Hoenn has been invaded by an army of zombies. Working with Prof. Birch, you set off to find your brother Landon and Birch's daughter May, who have both gone missing in an attempt to find the source of the undead plague. At the same time, you try to uncover your past. On the way you face zombies, witches, demons and the enigmatic Taoist, Gleis, as well as the Four Horsemen of the Apocalypse, the Hoenn Internal Affairs Army, and, eventually, the architect of all this misery himself: Senex.</p><h2>Features and New Stuff</h2><ul><li>New scripts, new overworlds, new sprites - the usual</li><li>Exciting new areas, such as the hidden Meathouse, the maddening Island of Calm and the unexpected Hoenn University of Film</li><li>Several zombie versions of normal Pokémon, two of which are capturable</li><li>6 Denjuu</li><li>An indeterminate number of Fakemon (somewhere between 40 and 50), including a good number of hidden evolutions to existing Pokémon</li><li>New legendaries, some of which are very, very evil</li><li>7(?) Sinnoh Pokémon</li><li>5(?) Isshu (or Unova, depending on how much you care) Pokémon</li><li>Most Gyms have now been destroyed by zombies, and hence Badges are come by in somewhat unusual ways</li><li>A few type changes for Pokémon here and there.</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-snakewood-version.235371/"
+  }
+}

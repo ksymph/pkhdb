@@ -1,0 +1,28 @@
+{
+  "title": "Emerald Z",
+  "id": "emerald-z",
+  "creator": "Z-nogyroP",
+  "last_update": "2024-01-18",
+  "base": "emerald",
+  "status": "complete",
+  "pokedex": [
+    "expanded",
+    "backports",
+    "fakemon",
+    "alt_forms",
+    "new_abilities",
+    "new_moves",
+    "misc_balance"
+  ],
+  "story": "enhanced",
+  "length": "vanilla",
+  "difficulty": "vanilla",
+  "features": [
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<p>A hack of Pokémon Emerald that contains, among other things, over 100 Fakemon with thoughtful designs and high-quality sprites, a carefully-curated Pokédex, shuffled Gym Leaders, buffs to weak Pokémon, some new maps, and a lot of love.</p><h3>Features:</h3><ul><li>A Pokédex of 500 Pokémon, chosen from generations 1-9, with a large variety of my own Fakemon added in.</li><li>Many buffs to weak Pokémon, as well as customized learnsets.</li><li>Your usual modern battle mechanics, which is to say the physical / special split, Fairy-type.</li><li>12-character Pokémon names and 16-character Ability and move names.</li><li>New moves and Abilities.</li><li>99 TMs. TMs, for balance reasons, are single-use, but remain accessible.</li><li>More interesting and useful replacements to the Battle Tents.</li><li>All Gym Leaders and Elite Four members have been shuffled around, so your team will be tested in different ways.</li><li>There is a Shiny Charm immediately accessible in your room, which can also be removed at any time.</li><li>Difficulty was not a primary focus of this hack, so there are no level caps or competitive movesets.</li><li>Almost no Pokémon are fully locked to lategame.</li><li>The ruins that once held the Regis are now accessible from the start, and have all-new puzzles.</li><li>Winning big at the Game Corner is much easier.</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald-z-fakemon-hack-complete-v1-2-0-available-material-drop-system-implemented.525819/"
+  }
+}

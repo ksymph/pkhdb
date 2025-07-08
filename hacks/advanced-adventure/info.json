@@ -1,0 +1,29 @@
+{
+  "title": "Advanced Adventure",
+  "id": "advanced-adventure",
+  "creator": "dbzmay",
+  "last_update": "2018-01-01",
+  "initial_release": "2010-09-14",
+  "languages": [
+    "en"
+  ],
+  "base": "leafgreen",
+  "status": "complete",
+  "pokedex": [
+    "backports",
+    "completable",
+    "new_moves",
+    "misc_balance"
+  ],
+  "story": "new",
+  "length": "vanilla",
+  "difficulty": "hard",
+  "features": [
+    "postgame",
+    "misc_qol"
+  ],
+  "description": "<p>The Final Version (2018) has Arrived! Completely redesigned tiles/maps.</p><h2>Story</h2><p>General plot summary. You are the child of the poorest family in town. You have no friends and you are bullied constantly due to your economic status. Though you are poor and have no hope of every becoming a Pokemon trainer, you still dream about it. One morning you wake up, and surprisingly the Pokemon professor wants to see you. Apparently, his grandson suddenly took a change of events in his life and has taken over the Pokemon Headquarters. You are told to stop him and his 8 subordinates across the region. You will quest to stop the unjust ruler by defeating his 8 subordinates, the 8 genetically modified tyrant pokemon running wild in towns and infiltrating the Pokemon Headquarters.</p><h2>Game Features</h2><ul><li>New Region - Entirely new region for you to explore!</li><li>All Pokémon - All Pokemon are catchable, excluding some legendaries.</li><li>No Trade Evolutions - Pokemon who originally evolve through trades, will do so otherwise.</li><li>Starter Custom Moveset - Your starter pokemon has a custom moveset!</li><li>New Storyline - A new and exciting storyline to keep you entertained.</li><li>No HM's - Only Surf and Fly are used in this hackrom.</li><li>All TM's Obtainable - All TM's can be found in the game.</li><li>New Hero - Enjoy playing game as Ash Ketchum and Misty (see credits).</li><li>Final Version 2018 is 99.9% Complete - Whole game has been completely revamped!</li><li>New Pokemon Sprites - Capture 8 genetically modified pokemon with new sprites, movesets and typings!</li><li>5th Generation Pokemon - Be able to acquire a select amount of 5th gen pokemon throughout the storyline of the game!</li><li>New TileSets - Be amazed by the graphical updates as Pokemon Advanced Adventure has custom made tilesets!</li><li>After Game Storyline - Battle against the Gods in order to save the earth!</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pokemon-advanced-adventure.232232/"
+  }
+}

@@ -37,28 +37,28 @@ return function(hack)
       </div>
     </div>
   </a>
-  <div class="info">
+  ]] .. (hack.difficulty and [[<div class="info">
     <span>Difficulty</span>
     <span>]] .. pretty.difficulty[hack.difficulty] .. [[</span>
-  </div>
-  <div class="info">
+  </div>]] or "") ..
+		 (hack.story and [[<div class="info">
     <span>Story</span>
     <span>]] .. pretty.story[hack.story] .. [[</span>
-  </div>
-  <div class="info">
+  </div>]] or "") ..
+		 (hack.last_updated and [[<div class="info">
     <span>Last updated</span>
     <span>]] .. (hack.last_updated or "N/A") .. [[</span>
-  </div>
-  <div class="info">
+  </div>]] or "") ..
+		 (hack.length and [[<div class="info">
     <span>Length</span>
     <span>]] .. pretty.length[hack.length] .. [[</span>
-  </div>
-  <div class="info-full">
+  </div>]] or "") ..
+		 (pokedex and [[<div class="info-full">
     <span>Pokédex: ]] .. pokedex .. [[</span>
-  </div>
-  <div class="info-full">
+  </div>]] or "") ..
+		 (features and [[<div class="info-full">
     <span>Features: ]] .. features .. [[</span>
-  </div>
+  </div>]] or "") .. [[
 </div>
 
 ]]

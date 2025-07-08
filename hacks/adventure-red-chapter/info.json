@@ -1,0 +1,21 @@
+{
+  "title": "Adventure - Red Chapter",
+  "id": "adventure-red-chapter",
+  "creator": "Aethestode",
+  "last_update": "2020-10-05",
+  "initial_release": "2013-03-24",
+  "base": "firered",
+  "status": "in-progress",
+  "story": "new",
+  "length": "very_long",
+  "features": [
+    "postgame",
+    "misc_qol",
+    "phys_spec_split"
+  ],
+  "description": "<p>This hack is an adaptation of the Pokémon Adventures/Special Manga, in the eyes of Red. It follows the story of this trainer from Pallet Town, as he embarks on his own Pokémon Journey.</p><h2>Features</h2><ul><li>Follow the adventures of Pokémon Trainer Red!</li><li>2 Rivals: Blue and Green!</li><li>Multiple regions (including Alola)!</li><li>Overhauled visuals compared to the original Pokémon Fire Red!</li><li>Playable Characters!</li><li>Character Costumes!</li><li>Character Mugshots!</li><li>Day and Night System!</li><li>The Level Cap has been raised from 100 to 255!</li><li>Reusable TMs!</li><li>Lens, an item that allows you to check the EVs and IVs of your party members!</li><li>Many, many Pokémon!</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-adventure-red-chapter-new-beta-expansion.298920/",
+    "Discord": "https://discord.gg/2UQuhfP"
+  }
+}

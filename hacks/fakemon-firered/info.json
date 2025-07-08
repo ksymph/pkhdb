@@ -1,0 +1,25 @@
+{
+  "title": "Fakemon FireRed",
+  "id": "fakemon-firered",
+  "creator": "Pekin",
+  "last_update": "2019-09-23",
+  "initial_release": "2019-09-23",
+  "base": "firered",
+  "status": "complete",
+  "pokedex": [
+    "all_fakemon",
+    "completable",
+    "new_types",
+    "new_abilities",
+    "new_moves"
+  ],
+  "story": "vanilla",
+  "features": [
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<p>Welcome to the thread of - Fakemon FireRed - Introduction The main feature of Fakemon FireRed is the addition of 252 original Fakemon, plus 19 Mega Evolutions. Every single mention of any legitimate Pokémon has been removed - including overworlds, dialogue mentions, game corner icons and much more. There are also a lot of more modern features and not to mention \"quality of life\" features added, which I will list below. The hack, as it exists now, is complete and playable all the way through. It's even possible to complete the Kanto Dex all within one save file, with no trading or anything required. Not necessarily easy, but definitely doable.</p><p>The story remains the same as in the original Pokémon FireRed Version, but there are only a few minor \"lore\" changes to accommodate some new Legendaries in place of the old ones. But nothing has been changed on how the events of the game plays out. It has all the same characters, towns, cities and events from the vanilla FireRed, with the only change being the Pokémon, as mentioned above.</p><h2>Features</h2><ul><li>The Physical/Special Split including visual indicators.</li><li>Three new types: Fairy, Digital and Cosmic.</li><li>A ton of new moves.</li><li>A lot of new moves from later generations, but also a few completely original ones.</li><li>A ton of new abilities, like Technician, No Guard, Bulletproof and Skill Link.</li><li>A ton of new items. Stuff like Eviolite, Assault Vest and a couple others.</li><li>A few completely original evolution stones are included, as well.</li><li>Roughly two generations worth of Fakemon.</li><li>The game should be completely free from any and all appearances from legit Pokémon.</li><li>252 Fakemon, plus 19 Mega forms.</li><li>Every non-legendary should be available before the E4.</li><li>Original cries for most of the Fakemon. 150 of them, to be exact.</li><li>Running indoors! Best feature.</li><li>A day/night system.</li><li>Reusable TMs. Doesn't always work, though. (Let the \"using an item\" animation play out)</li><li>A system for checking IVs in the stat screen.</li><li>The repel system of BW2. (\"The repel wore off, would you like to use another?\" That thing.)</li><li>New evolution methods. Gender-dependent, map-specific evolutions, level-up while holding an item, day- or night-time evolutions and so on.</li><li>Mega Evolutions. Works ALMOST perfectly, and every Mega Stone should be available somewhere before the E4.</li><li>Extra areas added to Kanto. A few areas have been expanded and extra maps have been added to house specific Pokémon or items.</li><li>Pewter City is almost doubled in size, make sure you check out the expanded area to the west.</li><li>Molet Tunnel (formerly known as Diglett Tunnel) has been expanded drastically.</li><li>Viridian Forest has been expanded a bit.</li><li>Eggs hatch at level 1.</li><li>Poison's effect in the overworld are gone.</li><li>EV cap at 252 per stat instead of 255.</li><li>You get the regional and the National Dex the same way you normally do, but every evolution is possible from the get-go.</li><li>Lucky Egg gives just a bit more extra experience. You can pick it up in Pewter City.</li><li>Life Orb works in the same way as Destiny Knot in regards to breeding in the newer games.</li><li>Flame Body and Magma Armor halves egg hatching time.</li><li>A guy in Pewter City will tell you the exact IVs and EVs of your Pokémon.</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/fakemon-firered.424971/"
+  }
+}

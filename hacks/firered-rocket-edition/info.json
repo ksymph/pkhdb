@@ -1,0 +1,22 @@
+{
+  "title": "FireRed: Rocket Edition",
+  "id": "firered-rocket-edition",
+  "creator": "colonelsalt",
+  "last_update": "2021-07-11",
+  "initial_release": "2020-04-09",
+  "base": "firered",
+  "status": "complete",
+  "pokedex": [
+    "backport_types"
+  ],
+  "story": "new",
+  "features": [
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<p>Play as a member of Team Rocket! In Pokémon FireRed: Rocket Edition, you will cheat, lie and steal your way to the top as you engage with the thriving gang scene of the Kanto region.</p><p>Featuring a story that takes place at the same time as the original FireRed, Rocket Edition will play with your expectations and allow you to experience the classic story from a whole new perspective. Along your journey, you will unravel secret conspiracies, explore a side of Kanto you've never seen before, engage with familiar characters in unfamiliar situations – and, most importantly: steal their Pokémon!</p><h2>Features</h2><ul><li>Steal Pokémon from every single Trainer in the game.</li><li>Experience the true story behind Red's adventures.</li><li>Engage well-known characters in Pokémon battle.</li><li>Morality system and branching sidequests.</li><li>Gen. VI-style mechanics and presentation.</li><li>Overall improved interface and gameplay.</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-firered-rocket-edition-completed.360725/",
+    "GitHub": "https://github.com/colonelsalt/Rocket-Edition"
+  }
+}

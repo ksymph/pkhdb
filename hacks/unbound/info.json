@@ -1,0 +1,30 @@
+{
+  "title": "Unbound",
+  "id": "unbound",
+  "creator": "Skeli",
+  "last_update": "2022-11-08",
+  "initial_release": "2016-11-05",
+  "base": "firered",
+  "status": "complete",
+  "pokedex": [
+    "expanded",
+    "backports",
+    "completable",
+    "new_abilities",
+    "new_moves",
+    "misc_balance"
+  ],
+  "story": "new",
+  "length": "very_long",
+  "difficulty": "flexible",
+  "features": [
+    "postgame",
+    "quests",
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<h2>Story</h2><p>Welcome to Borrius, a region rich with history. Centuries ago, the Borrian people were enveloped in a great war with a foreign land. When all seemed lost, the Borrian king summoned a powerful force to help turn the tide of battle. Unfortunately, the war ended in defeat when the king of the foreign land unleashed a devastating weapon. Disgruntled, the Borrian army returned home. The people, now enraged against the Borrian king, attempted a coup by manipulating the dark force summoned during the war. The Borrian king was able to seal away its power, however, and the coup was thwarted. Many years later, an organization known simply as the \"Shadows\" seems bent on releasing the dark force once again. Are they after the destruction of the Borrius region, or is there something else at play? It's up to you to stand in their way!</p><h2>Features</h2><ul><li>A Powerful Engine: Pushing the Complete FireRed Upgrade to its maximum potential, Pokemon Unbound contains a custom battle engine on par with Gen 8, as well as many quality of life features that improve the gameplay experience just waiting to be found. Enjoy catching all of your favourite Pokemon, from Gen 1 up to Gen 7, while using all of your favourite moves and abilities from each of these generations!</li><li>QOL Galore: Pokemon Unbound is also chock full of quality-of-life features to enjoy, such as Unlimited Bag Space, Auto-Run, the DexNav, Daily Raids and much more!</li><li>A New HM System: Have access to all of your favourite HMs without the hassle of carrying HM slaves! As long as your Pokemon can learn an HM, they will be able to use it in the overworld, and once you purchase the brand new key item - the ADM in the post-game, enjoy battling with all six Pokemon from your favourite team regardless of the HMs they can learn!</li><li>Updated Graphics: Sporting Gen 4 graphics in the overworld and Gen 5-esqe interfaces, in addition to a dynamic day and night system, Pokemon Unbound has a brand new, yet familiar feel! You're not in Kanto anymore!</li><li>Difficulty Modes: Choose from up to four different difficulty modes! Ranging from Easy to Insane, you can either sit back and relax or get your teeth kicked in by a completely brand new AI system!</li><li>A Unique Mission System: Pokemon Unbound contains over 80 unique Missions to complete! Mission progress can be tracked using the new Mission Log, in addition to extra details, such as which items have been found in collectathons!</li><li>Character Customization: Choose from up to 300 different combinations of skin tones, hair colours, and outfit colours! Unleash your fashion sense!</li><li>Daily Events: There are plenty of events all over Borrius, many of which can be experienced daily, and some can only be found at certain points in the day! Play throughout the day to experience them all!</li><li>Exciting Mini-Games: Play exciting mini-games such as Cloud Burst, Safari Sniper, and Underground Mining!</li><li>Challenging Puzzles: Put your brain to the test, and find ways to solve many of the unique and complex puzzles littered throughout Borrius!</li><li>A Rich Post-Game: Spend hours after the main campaign battling in Pokemon Unbound's battle facilities, completing Missions, mining in the KBT Expressway, catching Legendary Pokemon, and so much more!</li><li>A Custom OST: Enjoy over 180 original songs composed for Pokemon Unbound, each as brilliant as the last!</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/"
+  }
+}

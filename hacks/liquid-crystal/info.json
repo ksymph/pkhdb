@@ -1,0 +1,24 @@
+{
+  "title": "Liquid Crystal",
+  "id": "liquid-crystal",
+  "creator": "linkandzelda",
+  "initial_release": "2011-01-29",
+  "base": "firered",
+  "status": "in-progress",
+  "pokedex": [
+    "expanded",
+    "completable"
+  ],
+  "story": "enhanced",
+  "length": "long",
+  "difficulty": "hard",
+  "features": [
+    "postgame",
+    "phys_spec_split",
+    "misc_qol"
+  ],
+  "description": "<p>Pokémon: Liquid Crystal is a ROM Hack developed for the GameBoy Advanced system using FireRed V1.0 as the base ROM. It's a complete remake of the Original Pokémon Crystal game from the GameBoy Color. The story is the same as the Original Crystal with a load of extra events and even a brand new region to explore; the Orange Islands.</p><h2>Main Features</h2><ul><li>Updated Graphics & Maps</li><li>Day & Night system</li><li>Relive Johto & Kanto</li><li>Experience The Orange Islands</li><li>Revamped Battle Scenarios</li><li>Explore New & Hidden Areas</li><li>Dive Underground</li><li>Real Season Based Weather Effects</li><li>Updated Battle Mechanics</li></ul>",
+  "links": {
+    "PokéCommunity": "https://www.pokecommunity.com/threads/pok%C3%A9mon-liquid-crystal-3-3-xxxxx-live-beta.242023/"
+  }
+}

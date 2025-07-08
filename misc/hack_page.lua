@@ -64,21 +64,21 @@ return function(hack)
 				</div>
 				<div id="title-container">
 					<h2>]] .. hack.title .. [[</h2>
-					<p>a hack of ]] .. pretty_base .. [[ by ]] .. hack.creator .. [[</p>
+					<p>a hack of ]] .. pretty_base .. [[ by ]] .. (hack.creator or "Unknown") .. [[</p>
 				</div>
 				<div id="options">
 
 				</div>
 			</section>
 			<section id="infobox">
-				<img src="]] .. cover_url .. [[" alt="]] .. hack.title .. [[ cover" class="cover">
+				<img src="]] .. (cover_url or "/images/placeholder.png") .. [[" alt="]] .. hack.title .. [[ cover" class="cover">
 				<div class="infoline">
 					<p>Created by</p>
-					<p>]] .. hack.creator .. [[</p>
+					<p>]] .. (hack.creator or "N/A") .. [[</p>
 				</div>
 				<div class="infoline">
 					<p>Status</p>
-					<p>]] .. pretty_status .. [[</p>
+					<p>]] .. (pretty_status or "N/A") .. [[</p>
 				</div>
 				<div class="infoline">
 					<p>Hack of</p>
@@ -98,23 +98,23 @@ return function(hack)
 				</div>
 				<div class="infoline">
 					<p>Story</p>
-					<p>]] .. pretty_story .. [[</p>
+					<p>]] .. (pretty_story or "N/A") .. [[</p>
 				</div>
 				<div class="infoline">
 					<p>Length</p>
-					<p>]] .. pretty_length .. [[</p>
+					<p>]] .. (pretty_length or "N/A") .. [[</p>
 				</div>
 				<div class="infoline">
 					<p>Difficulty</p>
-					<p>]] .. pretty_difficulty .. [[</p>
+					<p>]] .. (pretty_difficulty or "N/A") .. [[</p>
 				</div>
 				<div class="infoline">
-					<p>Pokedex</p>
-					<p>]] .. pokedex .. [[</p>
+					<p>Pokedex:</p>
+					<p>]] .. (pokedex or "N/A") .. [[</p>
 				</div>
 				<div class="infoline">
-					<p>Features</p>
-					<p>]] .. features .. [[</p>
+					<p>Features:</p>
+					<p>]] .. (features or "N/A") .. [[</p>
 				</div>]] .. links_html .. [[
 			</section>
 			<section id="main-container">
