@@ -69,29 +69,45 @@ document.addEventListener("DOMContentLoaded", () => {
                             </div>
                         </div>
                         <div class="cover">
-                            <img src="h/${hack.id}/cover.png" alt="Cover for ${hack.title}" onerror="this.parentElement.style.display='none'">
+                            <img src="${hack.cover ? `h/${hack.id}/${hack.cover}` : "/placeholder.png"}" alt="cover" onerror="this.parentElement.style.display='none'">
                             <div>
                                 <span>by ${hack.creator}</span>
                                 <span>${hack.languages.join(", ")}</span>
                             </div>
                         </div>
                     </a>
-                    <div class="info">
+                    ${
+								hack.difficulty
+									? `<div class="info">
                         <span>Difficulty</span>
                         <span>${formatValue("difficulty", hack.difficulty)}</span>
-                    </div>
-                    <div class="info">
+                    </div>`
+									: ""
+							}
+                    ${
+								hack.story
+									? `<div class="info">
                         <span>Story</span>
                         <span>${formatValue("story", hack.story)}</span>
-                    </div>
-                    <div class="info">
+                    </div>`
+									: ""
+							}
+                    ${
+								lastUpdate !== "N/A"
+									? `<div class="info">
                         <span>Last updated</span>
                         <span>${lastUpdate}</span>
-                    </div>
-                    <div class="info">
+                    </div>`
+									: ""
+							}
+                    ${
+								hack.length
+									? `<div class="info">
                         <span>Length</span>
                         <span>${formatValue("length", hack.length)}</span>
-                    </div>
+                    </div>`
+									: ""
+							}
                     ${pokedexInfo ? `<div class="info-full">${pokedexInfo}</div>` : ""}
                     ${featuresInfo ? `<div class="info-full">${featuresInfo}</div>` : ""}
                 </div>`;

@@ -30,7 +30,7 @@ return function(hack)
       </div>
     </div>
     <div class="cover">
-      <img src="h/]] .. hack.id .. [[/cover.png" alt="cover">
+      <img src="]] .. (hack.cover and ("h/" .. hack.id .. "/" .. hack.cover) or "/placeholder.png") .. [[ alt="cover">
       <div>
         <span>by ]] .. hack.creator .. [[</span>
         <span>]] .. languages .. [[</span>

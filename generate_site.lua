@@ -59,7 +59,7 @@ local function load_hacks()
 
 			for file in U.lfs.dir(hacks_dir .. hack_dir) do
 				if file:match("^cover%.") then
-					hack.cover = true
+					hack.cover = file
 				elseif file:match("^screenshot_%d%d%.") then
 					table.insert(hack.screenshots, file)
 				end
@@ -139,7 +139,7 @@ local function build()
 
 		-- copy images
 		if hack.cover then
-			U.copy("hacks/" .. hack.id .. "/cover.png", "out/h/" .. hack.id .. "/cover.png")
+			U.copy("hacks/" .. hack.id .. "/" .. hack.cover, "out/h/" .. hack.id .. "/" .. hack.cover)
 		end
 		for _, file in ipairs(hack.screenshots) do
 			U.copy("hacks/" .. hack.id .. "/" .. file, "out/h/" .. hack.id .. "/" .. file)
