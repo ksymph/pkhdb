@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		hacksToRender.forEach((hack) => {
 			const pokedexInfo =
-				hack.pokedex.length > 0
-					? `<span>Pokédex: ${hack.pokedex.map((p) => formatValue("pokedex", p)).join(", ")}</span>`
+				(hack.pokedex || []).length > 0
+					? `<span>Pokédex: ${(hack.pokedex || []).map((p) => formatValue("pokedex", p)).join(", ")}</span>`
 					: "";
 
 			const featuresInfo =
-				hack.features.length > 0
-					? `<span>Features: ${hack.features.map((f) => formatValue("features", f)).join(", ")}</span>`
+				(hack.features || []).length > 0
+					? `<span>Features: ${(hack.features || []).map((f) => formatValue("features", f)).join(", ")}</span>`
 					: "";
 
 			const lastUpdateDate = new Date(hack.last_update);
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="top">
                             <span class="title">${hack.title}</span>
                             <div>
-                                <span class="status ${hack.status}">${formatValue("status", hack.status)}</span>
+                                <span class="status ${hack.status}">${formatValue("status", hack.status || "N/A")}</span>
                                 <span class="${hack.base}">${formatValue("base", hack.base)}</span>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <img src="${hack.cover ? `h/${hack.id}/${hack.cover}` : "/placeholder.png"}" alt="cover" onerror="this.parentElement.style.display='none'">
                             <div>
                                 <span>by ${hack.creator}</span>
-                                <span>${hack.languages.join(", ")}</span>
+                                <span>${hack.languages?.join(", ") || "N/A"}</span>
                             </div>
                         </div>
                     </a>
